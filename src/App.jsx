@@ -11,7 +11,7 @@ import Equipment from "./Equipment";
 import Users from "./Users";
 import AuditLogs from "./AuditLogs";
 
-const API_URL = "http://https://military-asset-backend-pxae.onrender.com";
+const API_URL = "https://military-asset-backend-pxae.onrender.com";
 
 async function checkAccess(endpoint, authHeader) {
   const response = await fetch(API_URL + endpoint, {
@@ -581,7 +581,7 @@ export default App;
 // import Users from "./Users";
 // import AuditLogs from "./AuditLogs";
 
-// const API_URL = "http://https://military-asset-backend-pxae.onrender.com";
+// const API_URL = "https://military-asset-backend-pxae.onrender.com";
 
 // async function checkAccess(endpoint, authHeader) {
 //   const response = await fetch(API_URL + endpoint, {

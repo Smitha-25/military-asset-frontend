@@ -6,7 +6,7 @@ function AuditLogs({ authHeader }) {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
 
-  const API = "http://https://military-asset-backend-pxae.onrender.com";
+  const API = "https://military-asset-backend-pxae.onrender.com";
 
   useEffect(() => {
     const fetchLogs = async () => {

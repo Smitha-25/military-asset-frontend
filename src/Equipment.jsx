@@ -10,7 +10,7 @@ function Equipment({ authHeader }) {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
-  const API = "http://https://military-asset-backend-pxae.onrender.com/api/equipment";
+  const API = "https://military-asset-backend-pxae.onrender.com/api/equipment";
 
   const fetchEquipment = async () => {
     try {

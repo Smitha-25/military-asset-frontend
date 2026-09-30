@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "http://https://military-asset-backend-pxae.onrender.com";
+const API = "https://military-asset-backend-pxae.onrender.com";
 
 function Transfers({ authHeader }) {
   const [bases, setBases] = useState([]);
