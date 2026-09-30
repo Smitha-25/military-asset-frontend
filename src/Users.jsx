@@ -13,7 +13,7 @@ function Users({ authHeader }) {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
-  const API = "http://localhost:9090";
+  const API = "http://https://military-asset-backend-pxae.onrender.com";
 
   const fetchUsers = async () => {
     try {

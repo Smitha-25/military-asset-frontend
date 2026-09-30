@@ -9,7 +9,7 @@ function Bases({ authHeader }) {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
-  const API = "http://localhost:9090/api/bases";
+  const API = "http://https://military-asset-backend-pxae.onrender.com/api/bases";
 
   const fetchBases = async () => {
     try {
